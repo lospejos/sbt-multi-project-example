@@ -1,6 +1,6 @@
 name := "sbt-multi-project-example"
 organization in ThisBuild := "com.pbassiner"
-scalaVersion in ThisBuild := "2.12.3"
+scalaVersion in ThisBuild := "2.12.8"
 
 // PROJECTS
 
@@ -53,14 +53,14 @@ lazy val dependencies =
   new {
     val logbackV        = "1.2.3"
     val logstashV       = "4.11"
-    val scalaLoggingV   = "3.7.2"
+    val scalaLoggingV   = "3.9.2"
     val slf4jV          = "1.7.25"
-    val typesafeConfigV = "1.3.1"
+    val typesafeConfigV = "1.3.3"
     val pureconfigV     = "0.8.0"
     val monocleV        = "1.4.0"
-    val akkaV           = "2.5.6"
+    val akkaV           = "2.5.19"
     val scalatestV      = "3.0.4"
-    val scalacheckV     = "1.13.5"
+    val scalacheckV     = "1.14.0"
 
     val logback        = "ch.qos.logback"             % "logback-classic"          % logbackV
     val logstash       = "net.logstash.logback"       % "logstash-logback-encoder" % logstashV
